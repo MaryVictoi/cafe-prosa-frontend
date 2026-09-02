@@ -4,16 +4,19 @@
 
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
   ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
   ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 
-  <br />
+</div>
 
   **Website institucional para uma cafeteria artesanal fictícia com espaço de coworking.**
   
-  [🌐 Acesse o Projeto Online](https://cafeprosabr.netlify.app). • [🎨 Protótipo no Figma](https://www.figma.com/make/bDFwjeAZA84C589Isz2dd7/Caf%C3%A9---Prosa-website?fullscreen=1&t=6VpIgoqlrRXqUh91-1&code-node-id=0-6)
-
-</div>
+<p align="center">
+  <a href="https://cafeprosabr.netlify.app">🌐 Acesse o Projeto Online</a>
+  •
+  <a href="https://www.figma.com/make/bDFwjeAZA84C589Isz2dd7/Caf%C3%A9---Prosa-website?fullscreen=1&t=6VpIgoqlrRXqUh91-1&code-node-id=0-6">🎨 Protótipo no Figma</a>
+</p>
 
 ---
 
