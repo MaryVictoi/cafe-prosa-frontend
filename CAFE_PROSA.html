@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café & Prosa - Cafeteria Artesanal</title>
+  <style>
+    /* d) HARMOMIA DE CORES E a) TIPOGRAFIA */
+    :root {
+      --bg-light: #fdfaf7;       /* Fundo claro para o corpo */
+      --bg-dark: #2b1a12;        /* Fundo escuro (marrom café) */
+      --text-dark: #2c2523;      /* Texto escuro de alto contraste */
+      --text-light: #ffffff;     /* Texto claro */
+      --accent: #c47b36;         /* Cor de destaque (tom caramelo/café) */
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    /* b) LAYOUT E DISPOSIÇÃO DOS ELEMENTOS */
+    header {
+      background-color: var(--bg-dark);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--accent);
+    }
+
+    nav a {
+      color: var(--text-light);
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      color: #d1c7bd;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background-color: var(--accent);
+      color: var(--text-light);
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    /* c) IMAGENS FIGURATIVAS */
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">☕ Café & Prosa</div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>O sabor de um bom café com uma boa conversa.</h1>
+    <p>Grãos selecionados, pães artesanais e um espaço feito para o seu momento.</p>
+    <a href="#cardapio" class="cta-btn">Conheça o Cardápio</a>
+  </section>
+
+  <main class="container" id="cardapio">
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400" alt="Xícara de Café Especial">
+        <h3>Cafés Especiais</h3>
+        <p>Grãos 100% arábica moídos na hora por nossos especialistas.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" alt="Pães Artesanais">
+        <h3>Pães Artesanais</h3>
+        <p>Receitas de fermentação natural preparadas todas as manhãs.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400" alt="Ambiente Aconchegante">
+        <h3>Espaço Coworking</h3>
+        <p>Ambiente tranquilo com Wi-Fi de alta velocidade e tomadas acessíveis.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Café & Prosa - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
