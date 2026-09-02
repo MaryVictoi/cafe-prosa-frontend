@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+html, body, #root {
+  height: 100%;
+}
+
+:root {
+  --bg-light: #fdfaf7;
+  --bg-dark: #2b1a12;
+  --text-dark: #2c2523;
+  --text-light: #ffffff;
+  --accent: #c47b36;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
