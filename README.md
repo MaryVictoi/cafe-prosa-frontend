@@ -11,7 +11,7 @@
 
   **Website institucional para uma cafeteria artesanal fictícia com espaço de coworking.**
   
-  [🌐 Acesse o Projeto Online](INSIRA_AQUI_O_LINK_DO_DEPLOY) • [🎨 Protótipo no Figma](https://www.figma.com/make/bDFwjeAZA84C589Isz2dd7/Caf%C3%A9---Prosa-website?fullscreen=1&t=6VpIgoqlrRXqUh91-1&code-node-id=0-6)
+  [🌐 Acesse o Projeto Online](https://cafeprosabr.netlify.app). • [🎨 Protótipo no Figma](https://www.figma.com/make/bDFwjeAZA84C589Isz2dd7/Caf%C3%A9---Prosa-website?fullscreen=1&t=6VpIgoqlrRXqUh91-1&code-node-id=0-6)
 
 </div>
 
