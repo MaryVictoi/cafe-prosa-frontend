@@ -71,7 +71,11 @@ O projeto utiliza variáveis CSS para padronização. As cores foram escolhidas 
 
 <details>
 <summary>💻 Ver código CSS das variáveis</summary>
-
+  
+<div align="center">
+  <img src="./estrura_semantica.jpg" alt="Estrutura Semântica">
+</div>
+  
 ```css
 :root {
   --bg-light: #fdfaf7;   /* Fundo claro principal */
